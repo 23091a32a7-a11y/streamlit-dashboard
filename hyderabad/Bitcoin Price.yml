@@ -1,0 +1,15 @@
+info:
+  name: Bitcoin Price
+  type: http
+  seq: 2
+
+http:
+  method: GET
+  url: https://api.coindesk.com/v1/bpi/currentprice.json
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
